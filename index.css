@@ -1,0 +1,93 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    width: 50vw;
+    background-color: lightseagreen;
+    border-radius: 10px;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    text-align: center;
+    text-transform: uppercase;
+}
+.description{
+    font-size: 20px;
+    font-weight: 100;
+    color: brown;
+    padding: 20px;
+}
+
+.bill{
+    font-size: 20px;
+    font-weight: bolder;
+    color: voilet;
+    color: darkblue;
+    padding: 10px;
+}
+#bill-amount{
+    height: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    margin: 5px;
+}
+.cash{
+    font-size: 20px;
+    font-weight: bolder;
+    color: voilet;
+    color: darkblue;
+    padding: 10px;
+}
+#cash-given{
+    height: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    margin: 5px;
+}
+#check-button{
+    border-radius: 20px;
+    margin: auto;
+    width: 50%;
+    background-color: aqua;
+    color: black;
+    outline: none;
+    padding: 10px;
+}
+.change-table{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+caption{
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+    font-style: oblique;
+}
+tbody{
+    color: aqua;
+}
+
+@media(max-width:768px){
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
